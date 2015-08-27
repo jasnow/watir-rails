@@ -3,6 +3,7 @@ rvm:
  - 2.1.7
  - 2.0.0
  - ruby-head
+cache: bundler
 gemfile:
   - gemfiles/Gemfile.rails-2.x
   - gemfiles/Gemfile.rails-3.x
@@ -13,4 +14,4 @@ notifications:
 matrix:
   allow_failures:
     - rvm: ruby-head
-
+sudo: false
