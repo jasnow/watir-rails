@@ -18,9 +18,9 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "rack"
   gem.add_dependency "rails"
-  gem.add_dependency "watir", "~> 5.0"
+  gem.add_dependency "watir"
 
   gem.add_development_dependency "yard"
   gem.add_development_dependency "redcarpet"
-  gem.add_development_dependency "rspec", "~> 3.0"
+  gem.add_development_dependency "rspec"
 end
