@@ -33,8 +33,8 @@ module Watir
 
           Timeout.timeout(boot_timeout) { @server_thread.join(0.1) until running? }
         end
-      rescue TimeoutError
-        raise TimeoutError, "Rails Rack application timed out during boot"
+      rescue Timeout::Error
+        raise Timeout::Error, "Rails Rack application timed out during boot"
       end
 
       # Host for Rails app under test. Default is {.local_host}.
