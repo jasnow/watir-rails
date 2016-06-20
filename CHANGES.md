@@ -1,3 +1,7 @@
+### 1.2.1 - 2016/06/15
+
+* Fix Browser#add_checker deprecation warning. PR #18 by Christophe Bliard.
+
 ### 1.2.0 - 2016/01/16
 
 * Add support for running Rails on Puma server. PR #15 by Andrey Koleshko.
