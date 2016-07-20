@@ -23,4 +23,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "yard"
   gem.add_development_dependency "redcarpet"
   gem.add_development_dependency "rspec"
+
+  gem.metadata["yard.run"] = "yri" # use "yard" to build full HTML docs.
 end
