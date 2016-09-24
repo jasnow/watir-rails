@@ -10,7 +10,7 @@ rescue LoadError
   require "initializer"
 end
 
-require File.expand_path("browser.rb", File.dirname(__FILE__))
+require File.expand_path("rails/browser.rb", File.dirname(__FILE__))
 require File.expand_path("rails/middleware.rb", File.dirname(__FILE__))
 
 module Watir
