@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.version       = Watir::Rails::VERSION
 
   gem.add_dependency "rack"
-  gem.add_dependency "rails"
+  gem.add_dependency "rails", '5.0.1.rc1'
   gem.add_dependency "watir", ">= 6.0.0.beta4"
 
   gem.add_development_dependency "yard"
