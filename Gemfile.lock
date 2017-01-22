@@ -146,7 +146,7 @@ GEM
     watir (6.1.0)
       selenium-webdriver (~> 3.0)
     websocket (1.2.3)
-    websocket-driver (0.6.4)
+    websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
     yard (0.9.8)
