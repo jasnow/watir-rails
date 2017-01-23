@@ -48,7 +48,7 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.4)
     builder (3.2.3)
-    childprocess (0.5.9)
+    childprocess (0.6.1)
       ffi (~> 1.0, >= 1.0.11)
     concurrent-ruby (1.0.4)
     coveralls (0.8.19)
@@ -162,4 +162,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   1.14.1
+   1.14.2
